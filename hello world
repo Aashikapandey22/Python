@@ -1,0 +1,14 @@
+print("hello world")
+# todo print but in termial (for file)
+print("hello world" , file=open("variables.py","w"))
+# print with end 
+print("hi , jass", end="❤️")
+# print with sep
+print("hello","aashi", sep= "miss" )
+
+print("name= aashika")
+print ("age= 18")
+fname= input("enter your name")
+age=int(input("enter your age"))
+print (fname , age)
+print(f"my name is , {fname} and my age {age}")
