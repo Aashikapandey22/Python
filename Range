@@ -1,0 +1,36 @@
+#range(start,stop,stop) 
+nums=[1,2,3,4]
+for i in range (5): #for loop
+    print (i)
+for i in range  (0,5):
+    print (i)
+for i in reversed(nums):
+    print (i)
+for i in range (0,5,2):
+    print (i)
+    #list method 
+print (range(5))
+print (range(0,5))
+print (list(range(0,5,2)))
+
+nums="Aashika"
+for i in reversed(nums):
+        print(i)
+[print(i in nums)]
+print(len(nums))
+
+list1=[1,2,3,4,5]
+print(list1[2])
+list1[2]=True
+print(list1[2])   
+list1.pop(0) # can also write del or remove insted of pop and if its just () then it will remove from end
+print(list1)
+list1.append(8) # this adds something in thhe list 
+print(list1)
+list1.insert(0,"aashika")
+print(list1)
+for x in list1:
+     print(x)
+for x in reversed(list1):
+     print(x)
+     print(list1[::-1])
