@@ -1,0 +1,21 @@
+x=10
+def sum (x):
+    print(x+1)
+y=22
+sum(x)
+sum(y)
+
+##method of return
+
+def sayHello():
+    print("hello")
+
+def sum_with_void(x):
+    print(x + 1)
+
+def sum_with_return(x):
+    return x + 1
+
+sayHello()  # This will print "hello"
+
+print("done")
