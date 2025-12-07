@@ -1,0 +1,32 @@
+x=20
+y=x
+
+x=5
+z=10
+
+print(x>=5 and x<10)
+print(x>=5 or x<10)
+ 
+x=int("257")
+z=int("257")
+
+a=int("3")
+b=int("3")
+#print(x>=5 and x<10)
+#print(x>=5 or x<10)
+
+print(x is z)# false
+print(a is b) #false
+
+print(x==z) #true
+
+fname="jaspreet"
+print("jaspreet" in fname)
+print("s" in fname)
+print("r" not in fname)
+
+print(fname[0]) #j
+#fname[0]="p"
+fname= "aashika"
+print(fname)
+print(fname[-4])
