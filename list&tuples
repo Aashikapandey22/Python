@@ -1,0 +1,77 @@
+##1
+my_list=[1,4,2,3,5,8,7,6,9,10]
+my_list.sort()
+print(my_list[::-2])
+
+##2
+def remove_duplicates(lst):
+    unique_list = []
+    for item in lst:
+        if item not in unique_list:
+            unique_list.append(item)
+    return unique_list
+original_list = [1, 2, 2, 3, 4, 4, 5]
+result = remove_duplicates(original_list)
+print(result)  
+
+##3
+def count_items(lst):
+    counts = {}
+    for item in lst:
+        if item in counts:
+            counts[item] += 1
+        else:
+            counts[item] = 1
+    return counts
+sample_list = ['a', 'b', 'a', 'c', 'b', 'a']
+counts = count_items(sample_list)
+print(counts) 
+
+##4
+list1 = [3, 1, 4]
+list2 = [2, 5, 6]
+merged_sorted_list = sorted(list1 + list2)
+print(merged_sorted_list)   
+
+##5
+my_tuple = (1, 2, 3, 4, 5)
+my_list = list(my_tuple)
+print(my_list) 
+
+##6
+x=[1,2,3,4,5,6,7,8,9,10]
+total=0
+for i in x:
+    total += i
+print(total)
+
+##7
+x=[1,2,3,4,5,6,7,8,9,10]
+y=x[::-1]
+print(y)
+
+##8
+numbers = (10, 55, 23, 67, 89, 45, 50, 100)
+for num in numbers:
+    if num > 50:
+        print(num)
+
+##9
+def find_index(tup, value):
+    try:
+        index = tup.index(value)
+        print(f"Value {value} found at index {index}.")
+    except ValueError:
+        print(f"Value {value} not found in the tuple.")
+my_tuple = (10, 20, 30, 40, 50)
+find_index(my_tuple, 30)  
+find_index(my_tuple, 60)  
+
+##10
+lst = [2, 3, 4, 5]
+
+product = 1
+for num in lst:
+    product *= num
+
+print("Product of all elements:", product)
